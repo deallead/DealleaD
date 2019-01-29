@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head> 
+
+<meta http-equiv="content-type" content="text/html;charset=iso-8859-1">
+
+<title>"Thank You" page</title>
+
+
+<style type="text/css">
+			
+			h2,p{
+				text-align:center;
+				}
+</style>
+
+</head>
+
+
+<body>
+	<div style="border: 1px solid black;"></div>
+	
+	<h2> Thank you! You will receive a message when new updates for great deals when they become available before they are made public.</h2>
+	<p>This is a message from http://www.deallead.jk@gmail.com/</p>
+</div>
+
+
+<?php
+@extract ($_POST);
+$admin='deallead.jk@gmail.com;
+$subject='Feedback from DealleaD';
+$name=stripslashes($name);
+$email=stripslashes($email);
+$comments=stripslashes($comment);
+$headers='Content-type: text/html; charset=utf-8' ."\r\n";
+
+
+
+
+
+</body>
+
+</html>
